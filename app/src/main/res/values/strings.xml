@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whisky Journal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="whiskyName">Name:</string>
+    <string name="distilleryName">Distillery:</string>
+    <string name="whiskyAge">Age:</string>
+    <string name="whiskyProof">Proof:</string>
+    <string name="whiskyRegion">Region:</string>
+    <string name="dateConsumed">Date:</string>
+    <string name="whiskyViscosity">Viscosity:</string>
+    <string name="whiskyColor">Color:</string>
+
+</resources>

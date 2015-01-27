@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyName"
+        android:id="@+id/whiskyName"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distilleryName"
+        android:id="@+id/distilleryName"
+        android:textSize="30dp"
+        android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/whiskyName"
+        android:layout_alignStart="@+id/whiskyName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyAge"
+        android:id="@+id/whiskyAge"
+        android:textSize="30dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignLeft="@+id/distilleryName"
+        android:layout_alignStart="@+id/distilleryName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyProof"
+        android:id="@+id/whiskyProof"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignLeft="@+id/whiskyAge"
+        android:layout_alignStart="@+id/whiskyAge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyRegion"
+        android:id="@+id/whiskyRegion"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_alignLeft="@+id/whiskyProof"
+        android:layout_alignStart="@+id/whiskyProof" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dateConsumed"
+        android:id="@+id/dateConsumed"
+        android:textSize="30dp"
+        android:layout_above="@+id/editText7"
+        android:layout_alignLeft="@+id/whiskyRegion"
+        android:layout_alignStart="@+id/whiskyRegion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyViscosity"
+        android:id="@+id/whiskyViscosity"
+        android:textSize="30dp"
+        android:layout_below="@+id/dateConsumed"
+        android:layout_alignLeft="@+id/dateConsumed"
+        android:layout_alignStart="@+id/dateConsumed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskyColor"
+        android:id="@+id/whiskyColor"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignLeft="@+id/whiskyViscosity"
+        android:layout_alignStart="@+id/whiskyViscosity" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/whiskyName"
+        android:layout_toRightOf="@+id/distilleryName"
+        android:text="                             " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="                             "
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/whiskyViscosity"
+        android:layout_toEndOf="@+id/whiskyViscosity" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="                             "
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:text="                             "
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:text="                             "
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:text="                             "
+        android:layout_below="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:text="                             "
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:text="                             "
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
+
+</RelativeLayout>
